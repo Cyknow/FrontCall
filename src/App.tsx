@@ -7,7 +7,7 @@ import Display from './Pages/DisplayProduct/Display'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [] = useState(0)
 
   return (
     <Routes>

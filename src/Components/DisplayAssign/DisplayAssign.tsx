@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link, useNavigate, useNavigation } from "react-router-dom";
+import {  useNavigate, } from "react-router-dom";
 
 const DisplayAssign = () => {
   const [viewResult, setViewResult] = useState([]);
